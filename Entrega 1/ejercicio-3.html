@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Formulario de registro</h1>
+      <div class="name-text">
+        <label for="name" >Nombre: </label>
+        <input type="text" id="name" required />
+      </div>
+      <br />
+      <div class="lastname-text">
+        <label for="lastname">Apellido: </label>
+        <input type="text" id="lastname" required />
+      </div>
+      <br />
+      <div class="cursada-radio">
+        <label for="cursada">Modalidad de cursada:</label>
+        <input type="radio" name="cursada" required /> On-Demand
+        <input type="radio" name="cursada" required /> En vivo
+      </div>
+      <br />
+      <div class="email">
+        <label for="mail">Correo:</label>
+        <input type="text" required/>
+        <br />
+
+
+        <input type="checkbox" id="notifications"/>
+        <label for="notifications">Declaro recibir información sobre nuevos posteos en la plataforma de Nucba</label>
+        <br />
+
+        <input type="checkbox" id="terms-conditions" required/>
+        <label for="terms-conditions">Declaro que leí los terminos y condiciones y
+            estoy listo para convertirme en desarrollador web Full Stack.</label>
+      </div>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
